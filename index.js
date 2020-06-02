@@ -52,6 +52,10 @@ registerChannel("660193933284081683", "660640702375526401", admsg); // spacemc
 registerChannel("706646870620897300", "711616609273511947", admsg); // skyages
 registerChannel("710594387448692819", "712419979026497677", admsg); // unitymc
 
+registerChannel("378934754860335124", "694097236463845406", admsg); // skyclash
+registerChannel("714502716591964297", "715879000605458522", admsg); // minemix
+
+
 
 
 bot.on("ready", async () => {
