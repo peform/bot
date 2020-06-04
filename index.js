@@ -54,7 +54,6 @@ registerChannel("710594387448692819", "712419979026497677", admsg); // unitymc
 
 registerChannel("378934754860335124", "694097236463845406", admsg); // skyclash
 registerChannel("714502716591964297", "715879000605458522", admsg); // minemix
-registerChannel("632154939862417409", "718080148661862460", admsg); // facebook test
 
 
 
@@ -83,7 +82,7 @@ bot.on("ready", async () => {
 	function loopChannel(channel, message) {
 		let rndm;
 		if (channel.rateLimitPerUser > (min / 1000)) {
-			let rateLimitInMs = channel.rateLimitPerUser * 1000;
+			let rateLimitInMs = channel.rateLimitPerUser * 10000;
 			console.log(rateLimitInMs);
 
 			let nmin = min + rateLimitInMs;
