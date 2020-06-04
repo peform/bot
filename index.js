@@ -86,7 +86,7 @@ bot.on("ready", async () => {
 	function loopChannel(channel, message) {
 		let rndm;
 		if (channel.rateLimitPerUser > (min / 1000)) {
-			let rateLimitInMs = channel.rateLimitPerUser * 10000;
+			let rateLimitInMs = channel.rateLimitPerUser * 1000;
 			console.log(rateLimitInMs);
 
 			let nmin = min + rateLimitInMs;
