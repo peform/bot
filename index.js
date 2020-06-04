@@ -51,13 +51,9 @@ registerChannel("248822834317492245", "528659708299706368", admsg); // Archonpvp
 registerChannel("660193933284081683", "660640702375526401", admsg); // spacemc
 registerChannel("706646870620897300", "711616609273511947", admsg); // skyages
 registerChannel("710594387448692819", "712419979026497677", admsg); // unitymc
-
 registerChannel("378934754860335124", "694097236463845406", admsg); // skyclash
 registerChannel("714502716591964297", "715879000605458522", admsg); // minemix
 
-registerChannel("632154939862417409", "718080148661862460", admsg); // facebooktest
-registerChannel("632154939862417409", "718081185305067630", admsg); // facebook test 1
-registerChannel("632154939862417409", "718081206058483774", admsg); // facebook test 2
 
 
 
